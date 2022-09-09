@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de adivinhação</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+<body>
+    <div>
+            <h1>Acerte o número secreto</h1>
+    </div>
+    <div>
+        <h2>O número secreto está entre <span id="numero_menor"></span> e <span id="numero_maior"></span></h2>
+    </div>
+    <div id="numero_chute">
+        
+    </div>
+    <div>
+        <h2 id="frase_resposta"></h2>
+    </div>
+    <div>
+        <button id="jogar_novamente" class="d-none" type="button"></button>
+    </div>
+
+    <script src="js/sorteio_numeros.js"></script>
+    <script src="js/reconhecimento_voz.js"></script>
+    <script src="js/validacoes.js"></script>
+</body>
+</html>
